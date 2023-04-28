@@ -1,0 +1,53 @@
+.containerCard {
+    border: 3px solid rgba(255, 213, 0, 0.888);
+    background-color: rgba(65, 65, 65, 0.7) ;
+    border-radius: 25px;
+    height: 540px;
+    width: 335px;
+    margin-top: 50px;
+    padding: 30px;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 3px;
+
+}
+
+.containerDeleteButton {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.containerDeleteButton button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.img {
+    height: 170px;
+    width: 180px;
+    border-radius: 30px;
+    margin-left: 70px;
+    
+}
+
+.dataTextCard {
+    /* border: 2px solid black; */
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+.dataTextCard h2 {
+    color: rgb(26, 234, 29);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
