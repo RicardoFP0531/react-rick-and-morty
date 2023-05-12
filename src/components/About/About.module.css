@@ -1,0 +1,13 @@
+.containerAbout{
+    font-family: 'Creepster', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    margin-top: 150px;
+}
+
+.containerAbout h2 {
+    color: yellow;
+}
+
