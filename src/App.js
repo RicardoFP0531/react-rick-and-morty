@@ -1,11 +1,12 @@
 import './App.css';
+import axios from 'axios';
+import {useState} from 'react';
+import {Routes, Route}  from 'react-router-dom';
 import Cards from './components/Cards/Cards.jsx';
 import Nav from './components/Nav/Nav';
-import {useState} from 'react';
-import axios from 'axios';
-import { Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
-import { Detail } from './components/Detail/Detail';
+import Detail from './components/Detail/Detail';
+import Error404 from './components/Error404/Error404';
 
 
 function App() {
@@ -34,15 +35,19 @@ function App() {
 
 
    return (
-      <div>
+      <>
          <Nav onSearch={onSearch} />
-         <Routes>
-            <Route path='/home' element={<Cards characters={characters} onClose={onClose} />}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/detail/:id' element={<Detail/>}/>
+         
+            <Routes>
+               <Route path='/home' element={<Cards characters={characters} onClose={onClose} />}/>
+               <Route path='/about' element={<About/>}/>
+               <Route path='/detail/:id' element={<Detail/>}/>
+               {/* <Route path='*' element={<Navigate to='/' replace/>}/> */}
+               <Route path='*' element={<Error404/>}/>
+            </Routes>
 
-         </Routes>
-      </div>
+      </>
+      
    );
 }
 

@@ -7,6 +7,7 @@
 }
 .searchContainer input {
     padding: 12px 20px;
+    margin-right: 10px;
     font-size: 1.5rem;
     border-width: calc(var(--border-width) * 1px);
     border-style: solid;  

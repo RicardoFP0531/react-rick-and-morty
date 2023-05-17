@@ -3,7 +3,7 @@ import Card from '../Card/Card';
  function Cards(props) {
    const {characters, onClose} = props;
    return (
-   <div style={{display:'flex', justifyContent: 'space-between'}}>
+   <div style={{display:'flex', justifyContent: 'space-evenly'}}>
       {
          characters.map(({id, name, status, species, gender, origin, image}) => {
             return (
