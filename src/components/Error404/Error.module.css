@@ -39,7 +39,7 @@ article {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-button {
+.buttonHome {
     cursor: pointer;
     margin: 0 0.5rem;
     font-weight: bold;
@@ -50,7 +50,7 @@ button {
     border: 3px solid black;
 }
 
-button:hover{
+.buttonHome:hover{
     color: #fff;
     background-color: rgb(3, 91, 125);
     border: rgb(3, 91, 125);

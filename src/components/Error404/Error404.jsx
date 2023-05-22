@@ -11,7 +11,7 @@ const Error404 = () => {
               buscar no fue encontrada
             </article>
             <Link to='/home'>
-              <button>Regresar al home</button>
+              <button className={style.buttonHome}>Regresar al home</button>
             </Link>
             
             

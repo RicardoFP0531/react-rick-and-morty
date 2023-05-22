@@ -6,7 +6,7 @@ function Card({id, onClose, name, species, gender, image, status, origin}) {
    return (
       <div className={style.containerCard} >
          <div className={style.containerDeleteButton}> 
-            <button onClick={() => onClose(id)}>X</button>  
+            <button className={style.deleteCard} onClick={() => onClose(id)}>X</button>  
          </div>
          <div className={style.dataTextCard}>
             <Link to={`/detail/${id}`}>

@@ -2,8 +2,8 @@
     border: 3px solid rgba(255, 213, 0, 0.888);
     background-color: rgba(65, 65, 65, 0.7) ;
     border-radius: 25px;
-    height: 540px;
-    width: 335px;
+    height: 440px;
+    width: 320px;
     margin-top: 50px;
     padding: 30px;
     font-family: 'Creepster', cursive;
@@ -18,20 +18,22 @@
 
 }
 
-.containerDeleteButton button {
+.deleteCard {
     background-color: red;
+    width: 25px;
     color: white;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 20px;
     border: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .img {
     height: 170px;
     width: 180px;
-    border-radius: 30px;
-    margin-left: 70px;
+    border-radius: 20px;
+    margin-left: 40px;
     
 }
 
@@ -41,13 +43,14 @@
     padding: 10px;
     text-align: center;
     color: whitesmoke;
-    
+    -webkit-text-stroke: 1px black;
 }
 
 .dataTextCard h2 {
     color: rgb(26, 234, 29);
     font-weight: bold;
     font-size: 28px;
+    -webkit-text-stroke: 1px black;
 }
 
 
