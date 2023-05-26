@@ -1,24 +1,23 @@
 .searchContainer {
-    margin: auto;
     display: flex;
-    width: 50%;
+    justify-content: flex-end;
+    width: 40%;
 }
 .searchContainer input {
     padding: 12px 20px;
+    height: 39.6px;
     margin-right: 10px;
-    font-size: 1rem;
+    font-size: 15px;
     border-width: calc(var(--border-width) * 1px);
     border-style: solid;  
     border-radius: 15px;
     text-align: center;
-    outline: transparent;
-    width: 100%;
+    /* width: 100%; */
 }
 
-.searchContainer button {
-    background: #ff0000;
-	display: block;
-	width: 30%;
+.searchButton {
+    background: #f90202;
+	height: 39.6px;
 	font-weight: bold;
 	font-size: 25px;
 	text-align: center;
@@ -27,7 +26,7 @@
 	border-radius: 10px;
 	font-family: 'Creepster', cursive;
 	cursor: pointer;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: .5px black;
 }

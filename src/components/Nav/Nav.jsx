@@ -13,9 +13,12 @@ const Nav = ({onSearch, logout}) => {
          <Link to='/home'>
             <button className={style.buttonsNav} >Home</button>
          </Link>
+         <Link to='/favorites'>
+            <button className={style.buttonsNav} >Favorites</button>
+         </Link>
          <SearchBar onSearch={onSearch}/>
          
-            <button onClick={logout} className={style.buttonsNav} >LogOut</button>
+            <button onClick={logout} className={style.buttonsNavLogout} >LogOut</button>
          
         </div>
 

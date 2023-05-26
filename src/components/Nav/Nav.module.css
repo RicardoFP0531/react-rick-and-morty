@@ -1,11 +1,30 @@
 .containerNav {
 	display: flex;
 	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: space-evenly;
+	/* background-color: blueviolet; */
 }
 
 .buttonsNav{
     background: #0d70e2;
 	width: 100px;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	font-family: 'Creepster', cursive;
+	cursor: pointer;
+    /* letter-spacing: 2px; */
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.buttonsNavLogout{
+    background: #0d70e2;
+	width: 100px;
+	height: 39.6px;
 	font-size: 25px;
 	text-align: center;
 	padding: 5px;

@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Detail from './components/Detail/Detail';
 import Error404 from './components/Error404/Error404';
 import Form from './components/Form/Form';
+import Favorites from './components/Favorites/Favorites';
 
 
 function App() {
@@ -62,12 +63,13 @@ function App() {
    return (
       <>
       {location.pathname !== '/' && <Nav onSearch={onSearch} logout={logout}/>} 
-         <hr />  
+         {/* <hr />   */}
             <Routes>
                <Route exact path='/' element={<Form login={login} />}/>
                <Route path='/home' element={<Cards characters={characters} onClose={onClose} />}/>
                <Route path='/about' element={<About/>}/>
                <Route path='/detail/:id' element={<Detail/>}/>
+               <Route path='/favorites' element={<Favorites/>}/>
                <Route path='*' element={<Error404/>}/>
             </Routes>
 
