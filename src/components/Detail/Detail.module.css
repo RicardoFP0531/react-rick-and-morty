@@ -1,3 +1,4 @@
+/* formalizacion de quitar espacios en la pagina */
 * {
     margin: 0;
     padding: 0;
@@ -10,5 +11,50 @@
     justify-content: center;
     height: 100vh;
     font-family: 'Creepster', cursive;
-    background-color: aliceblue;
-}   
+    padding: 0 20px;
+}  
+
+.detailContainer {
+    display: flex;
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+    background: #2532ebb9;
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.header {
+    border-left: 1px solid black;
+}
+
+.header, .info {
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 10px;
+    margin: 20px 30px;
+    transition: .2s;
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    margin: 110px 20px;
+}
+
+.info h2 {
+    font-size: 30px;
+    color: #fcf812ed;
+    -webkit-text-stroke: 1px black;
+}
+
+.header h2 {
+    font-size: 30px;
+    color: #ffffffed;
+    -webkit-text-stroke: 1px black;
+    
+    
+}
+

@@ -46,6 +46,7 @@ const Form = (props) => {
               />
               <br />
               <p className={styles.danger} >{errors.email}</p>
+              
             <br />
             <label>Ingresa tu contraseña: </label>
             <input 

@@ -27,14 +27,16 @@ const Detail = () => {
         <>
         
          <div className={styles.mainContainer}>
-          <h1>Detail</h1>
+          
           {
             character?(
-            <div className={styles.descripcion}>
+            <div className={styles.detailContainer}>
+                <div className={styles.info}>
                   <h2>Status: {character.status}</h2>
                   <h2>Species: {character.species}</h2>
                   <h2>Gender: {character.gender}</h2>
                   <h2>Origin: {character.origin?.name}</h2>
+                </div>
                 <div className={styles.header}>
                     <h2>ID: {character.id}</h2>
                     <h2>Name:   {character.name}</h2>

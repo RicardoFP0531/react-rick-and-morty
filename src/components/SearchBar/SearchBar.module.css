@@ -22,11 +22,12 @@
 	font-size: 25px;
 	text-align: center;
 	padding: 5px;
-	border: none;
+	border: 1px solid black;
 	border-radius: 10px;
 	font-family: 'Creepster', cursive;
 	cursor: pointer;
     letter-spacing: 1.5px;
     color: white;
     -webkit-text-stroke: .5px black;
+
 }

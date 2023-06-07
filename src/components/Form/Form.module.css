@@ -12,13 +12,13 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-  
 
 }
 
 .containerLogin {
-    background-color: blue;
+    display: flex;
+    
+    background-color: rgba(57, 232, 18, 0.76);
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
